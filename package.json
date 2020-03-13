@@ -1,0 +1,13 @@
+{
+  "name": "appointments",
+  "version": "1.0.0",
+  "description": "Mastering React Test-Driven Development",
+  "main": "index.js",
+  "repository": "tba",
+  "author": "jchlu",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
