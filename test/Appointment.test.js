@@ -18,3 +18,16 @@ describe('Appointment', () => {
     expect(container.textContent).toMatch('Jordan')
   })
 })
+
+describe('Appointment Day View', () => {
+  let container
+
+  beforeEach(() => {
+    container = document.createElement('div')
+  })
+  const render = container => ReactDOM.render(component, container)
+
+  it('Renders a div with the right id', () => {
+    render(AppointmentView, container)
+  })
+})
